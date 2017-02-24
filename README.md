@@ -1,10 +1,16 @@
 # Linter Cheatsheet
 It happens to be a major PITA to find these little snippets, so I gather all useful findings here. As a rule of thumb, you should use these as last resort to solve a linting issue.
 
-Some `JSlint` suppressors work with `JSHint`, YMMV.
+** Some `JSlint` suppressors work with `JSHint`, YMMV. For `JShint/JSLint` compatibility, `space` after a comment identifier (`/*`) must be omitted.
 
 ## ESLint
 http://eslint.org/docs/rules/
+
+* Suppress all warnings for a single line
+
+```
+// eslint-disable-line
+```
 
 ## JShint
 * Suppress environment warnings
@@ -14,12 +20,12 @@ http://eslint.org/docs/rules/
 // jslint jquery: true
 // jshint esversion: 6
 ```
-* Suppress undefined global variables
+* Suppress undefined global variables. **
 
 ```
 /*global <var1>, <var2>, ... */
 ```
-* Suppress exported/unused global variables
+* Suppress exported/unused global variables. **
 
 ```
 /*exported <var1>, <var2>, ... */
@@ -36,7 +42,7 @@ http://eslint.org/docs/rules/
 // jshint ignore:start
 // jshint ignore:end
 ```
-* Suppress all warnings on a single line
+* Suppress all warnings for a single line
 
 ```
 // jshint ignore:line
