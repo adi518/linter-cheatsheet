@@ -71,9 +71,9 @@ It happens to be a major PITA to find these little snippets, so I gather all use
 
 ## Beautify
 
-- Suppress through a section
+- Suppress through a section (must be a block-comment)
 
 ```
-// beautify ignore:start
-// beautify ignore:end
+/* beautify ignore:start */
+/* beautify ignore:end */
 ```
