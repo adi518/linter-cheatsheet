@@ -17,7 +17,12 @@ http://eslint.org/docs/rules/
 * Suppress undefined global variables
 
 ```
-//global <var1>, <var2>, ...
+/*global <var1>, <var2>, ... */
+```
+* Suppress exported/unused global variables
+
+```
+/*exported <var1>, <var2>, ... */
 ```
 * Suppress a single warning. Example: `// jshint -W001`
 
