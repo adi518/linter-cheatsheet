@@ -7,13 +7,16 @@ It happens to be a major PITA to find these little snippets, so I gather all use
 ```
 // jshint -<WARNING_IDENTIFIER> // E.g. `W001`
 // jshint +<WARNING_IDENTIFIER>
+```
+* Suppress all warnings
 
-/* Suppress all warnings */
-
+```
 // jshint ignore:start
 // jshint ignore:end
+```
+* Suppress a single line
 
-// Ignore a line
+```
 // jshint ignore:line
 ```
 
