@@ -4,11 +4,12 @@ It happens to be a major PITA to find these little snippets, so I gather all use
 Some `JSlint` suppressors work with `JSHint`, YMMV.
 
 ## JShint
-* Suppress Browser/jQuery warnings
+* Suppress environment warnings
 
 ```
 // jslint browser: true
 // jslint jquery: true
+// jshint esversion: 6
 ```
 * Suppress a single warning. Example: `// jshint -W001`
 
