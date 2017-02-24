@@ -3,6 +3,9 @@ It happens to be a major PITA to find these little snippets, so I gather all use
 
 Some `JSlint` suppressors work with `JSHint`, YMMV.
 
+## ESLint
+http://eslint.org/docs/rules/
+
 ## JShint
 * Suppress environment warnings
 
@@ -10,6 +13,11 @@ Some `JSlint` suppressors work with `JSHint`, YMMV.
 // jslint browser: true
 // jslint jquery: true
 // jshint esversion: 6
+```
+* Suppress undefined global variables
+
+```
+//global <var1>, <var2>, ...
 ```
 * Suppress a single warning. Example: `// jshint -W001`
 
