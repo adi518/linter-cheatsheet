@@ -22,7 +22,7 @@ Some `JSlint` suppressors work with `JSHint`.
 // jshint ignore:start
 // jshint ignore:end
 ```
-* Suppress a single line
+* Suppress all warnings on a single line
 
 ```
 // jshint ignore:line
