@@ -1,7 +1,15 @@
 # Linter Cheatsheet
 It happens to be a major PITA to find these little snippets, so I gather all useful findings here. As a rule of thumb, you should use these as last resort to solve a linting issue.
 
+Some `JSlint` suppressors work with `JSHint`.
+
 ## JShint
+* Suppress Browser/jQuery warnings
+
+```
+// jslint browser: true
+// jslint jquery: true
+```
 * Suppress a single warning
 
 ```
