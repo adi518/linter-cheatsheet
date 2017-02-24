@@ -1,7 +1,7 @@
 # Linter Cheatsheet
 It happens to be a major PITA to find these little snippets, so I gather all useful findings here. As a rule of thumb, you should use these as last resort to solve a linting issue.
 
-Some `JSlint` suppressors work with `JSHint`.
+Some `JSlint` suppressors work with `JSHint`, YMMV.
 
 ## JShint
 * Suppress Browser/jQuery warnings
@@ -10,11 +10,11 @@ Some `JSlint` suppressors work with `JSHint`.
 // jslint browser: true
 // jslint jquery: true
 ```
-* Suppress a single warning
+* Suppress a single warning. Example: `// jshint -W001`
 
 ```
-// jshint -<WARNING_IDENTIFIER> // E.g. `W001`
-// jshint +<WARNING_IDENTIFIER>
+// jshint -<*>
+// jshint +<*>
 ```
 * Suppress all warnings
 
@@ -29,11 +29,11 @@ Some `JSlint` suppressors work with `JSHint`.
 ```
 
 ## SCSS-Lint
-* Suppress a single warning
+* Suppress a single warning. Example: `// scss-lint:enable Compass::PropertyWithMixin`
 
 ```
-// scss-lint:enable <FEATURE_IDENTIFIER> // E.g. `Compass::PropertyWithMixin`
-// scss-lint:disable <FEATURE_IDENTIFIER>
+// scss-lint:enable <*>
+// scss-lint:disable <*>
 ```
 
 ## Beautify
