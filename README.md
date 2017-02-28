@@ -8,6 +8,11 @@ It happens to be a major PITA to find these little snippets, so I gather all use
 
 <http://eslint.org/docs/rules/>
 
+- Suppress all warnings
+
+```
+/* eslint-disable */
+```
 - Suppress all warnings for a single line
 
 ```
