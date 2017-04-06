@@ -61,6 +61,12 @@ It happens to be a major PITA to find these little snippets, so I gather all use
 // jshint ignore:line
 ```
 
+## HTML-Lint
+[Rules](https://github.com/yaniswang/HTMLHint/wiki/Rules)
+```
+<!--htmlhint spec-char-escape: false -->
+```
+
 ## SCSS-Lint
 
 - Suppress a single warning. Example: `// scss-lint:enable Compass::PropertyWithMixin`
