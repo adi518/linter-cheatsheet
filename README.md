@@ -8,12 +8,12 @@ It happens to be a major PITA to find these little snippets, so I gather all use
 
 <http://eslint.org/docs/rules/>
 
-- Suppress all warnings
+- Suppress all
 
 ```
 /* eslint-disable */
 ```
-- Suppress all warnings for a single line
+- Suppress all for a single line
 
 ```
 // eslint-disable-line
