@@ -2,7 +2,7 @@
 
 It happens to be a major PITA to find these little snippets, so I gather all useful findings here. As a rule of thumb, you should use these as last resort to solve a linting issue.
 
-** Some `JSlint` suppressors work with `JSHint`, YMMV. For `JShint/JSLint` compatibility, `space` after a comment identifier (`/*`) must be omitted.
+_* Some `JSlint` suppressors work with `JSHint`, YMMV. For `JShint/JSLint` compatibility, `space` after a comment identifier (`/_`) must be omitted.
 
 ## ESLint
 
@@ -15,6 +15,8 @@ It happens to be a major PITA to find these little snippets, so I gather all use
 ```
 
 ## JShint
+
+<http://jshint.com/docs/options/>
 
 - Suppress environment warnings
 
