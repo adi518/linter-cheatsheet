@@ -8,7 +8,12 @@ _* Some `JSlint` suppressors work with `JSHint`, YMMV. For `JShint/JSLint` compa
 
 <http://eslint.org/docs/rules/>
 
-- Suppress all warnings for a single line
+- Suppress all
+
+```
+/* eslint-disable */
+```
+- Suppress all for a single line
 
 ```
 // eslint-disable-line
@@ -56,6 +61,12 @@ _* Some `JSlint` suppressors work with `JSHint`, YMMV. For `JShint/JSLint` compa
 
 ```
 // jshint ignore:line
+```
+
+## HTML-Lint
+[Rules](https://github.com/yaniswang/HTMLHint/wiki/Rules)
+```
+<!--htmlhint spec-char-escape: false -->
 ```
 
 ## SCSS-Lint
