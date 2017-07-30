@@ -13,10 +13,17 @@ _* Some `JSlint` suppressors work with `JSHint`, YMMV. For `JShint/JSLint` compa
 ```
 /* eslint-disable */
 ```
+
 - Suppress all for a single line
 
 ```
 // eslint-disable-line
+```
+
+- Suppress a feature
+
+```
+/* eslint-disable <FEATURE> */ E.g.: /* eslint-disable space-before-function-paren */
 ```
 
 ## JShint
@@ -43,7 +50,7 @@ _* Some `JSlint` suppressors work with `JSHint`, YMMV. For `JShint/JSLint` compa
 /*exported <var1>, <var2>, ... */
 ```
 
-- Suppress a single warning. Example: `// jshint -W001`
+- Suppress a single warning. E.g.: `// jshint -W001`
 
 ```
 // jshint -<*>
@@ -64,7 +71,9 @@ _* Some `JSlint` suppressors work with `JSHint`, YMMV. For `JShint/JSLint` compa
 ```
 
 ## HTML-Lint
+
 [Rules](https://github.com/yaniswang/HTMLHint/wiki/Rules)
+
 ```
 <!--htmlhint spec-char-escape: false -->
 ```
