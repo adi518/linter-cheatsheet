@@ -20,10 +20,16 @@ _* Some `JSlint` suppressors work with `JSHint`, YMMV. For `JShint/JSLint` compa
 // eslint-disable-line
 ```
 
-- Suppress a feature
+- Suppress a rule for a single line
 
 ```
-/* eslint-disable <FEATURE> */ E.g.: /* eslint-disable space-before-function-paren */
+// eslint-disable-line <rule1> <rule2>
+```
+
+- Suppress a rule for all
+
+```
+/* eslint-disable <rule> */ E.g.: /* eslint-disable space-before-function-paren */
 ```
 
 ## JShint
